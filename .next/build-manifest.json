@@ -1,60 +1,15 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_2447349aa176fea6616e.js"
+  ],
   "pages": {
     "/_app": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
-    ],
-    "/about": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
-    ],
-    "/blog": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
-    ],
-    "/blog/post-four-link-on-twitter": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
-    ],
-    "/blog/post-one-code-block-demo": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
-    ],
-    "/blog/post-three-smooth-scroll-and-reading-progress-bar": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
-    ],
-    "/blog/post-two-image-demo": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
-    ],
-    "/index": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
-    ],
-    "/search": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
-    ],
-    "/": [
-      "static/runtime/webpack-f0c6edbea5b547edc23f.js",
-      "static/chunks/commons.5b295102d05feffb5f2a.js",
-      "static/runtime/main-8e1f625f6c315d8edcd8.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
