@@ -8,11 +8,8 @@ const createPost = ({ title, slug }) => {
   const content = postTemplate({ title, slug });
 
   fs.writeFile(path, content, () => {
-    const metaPath = `./pages/blog/${slug}.meta.js`;
+    const metaPath = `./pages/blog/${slug}.meta.json`;
     const metaContent = metaTemplate({ title, slug });
-
-    console.log({ metaPath });
-    console.log({ metaContent });
 
     fs.writeFile(metaPath, metaContent, updatePostList);
   });

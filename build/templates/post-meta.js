@@ -1,2 +1,2 @@
-module.exports = config => `export default ${JSON.stringify(config, null, 2)};
+module.exports = config => `${JSON.stringify(config, null, 2)}
 `;
