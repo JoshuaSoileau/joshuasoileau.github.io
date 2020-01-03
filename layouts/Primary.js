@@ -1,42 +1,23 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Header from "./Header";
 
 const Primary = ({ children }) => {
   return (
-    <div className="main" role="main">
-      <div className="main__content">{children}</div>
-
+    <div className="outer">
+      <Header />
+      <div className="main" role="main">
+        <div className="main__content">{children}</div>
+      </div>
       <style jsx>{`
-        .main {
-          display: grid;
-          grid-template-columns: 1fr fit-content(800px) 1fr;
-          grid-template-rows: 1fr fit-content(800px) 1fr;
+        .outer {
+          display: flex;
+          flex-direction: column;
           width: 100vw;
           height: 100vh;
-          background-color: #ededed;
           font-family: "Roboto", sans-serif;
-        }
-
-        .main__content {
-          grid-area: conversation;
-        }
-
-        /* center conversation on screens > 800px wide */
-        @media only screen and (min-width: 801px) {
-          .main {
-            grid-template-areas:
-              ". conversation ."
-              ". . .";
-          }
-        }
-
-        /* fill screen with conversation on screens <= 800px wide */
-        @media only screen and (max-width: 800px) {
-          .main {
-            grid-template-areas:
-              "conversation conversation conversation"
-              "conversation conversation conversation"
-              "conversation conversation conversation";
-          }
+          max-width: 840px;
+          margin: 0 auto;
+          padding: 0 20px;
         }
       `}</style>
     </div>
