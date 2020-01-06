@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import allPosts from "../../pages/blog/_post-list";
+import allPosts from "../../_post-list";
 
 const BlogList = () => {
   return (

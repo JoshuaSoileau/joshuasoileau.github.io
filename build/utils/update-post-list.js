@@ -3,7 +3,7 @@ const template = require("../templates/post-list");
 const glob = require("glob");
 
 const createPost = async () => {
-  const path = `./pages/blog/_post-list.js`;
+  const path = `./_post-list.js`;
 
   glob("./pages/blog/**/*.meta.json", {}, (err, allPosts) => {
     if (!allPosts.length) return;
