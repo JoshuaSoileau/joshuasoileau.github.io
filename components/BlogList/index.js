@@ -6,8 +6,10 @@ const BlogList = () => {
   return (
     <ul>
       {allPosts.map(post => (
-        <li>
-          <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+        <li key={post.slug}>
+          <Link href={`/blog/${post.slug}`}>
+            <a>{post.title}</a>
+          </Link>
         </li>
       ))}
     </ul>

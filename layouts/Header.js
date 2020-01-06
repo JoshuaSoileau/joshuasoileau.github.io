@@ -7,10 +7,10 @@ const Header = () => {
   return (
     <header>
       <Link href="/">
-        <div className="logo">
+        <a className="logo">
           <img src={logo} alt="Josh Soileau" className="logo__image" />
           <span className="logo__text">Joshua Soileau</span>
-        </div>
+        </a>
       </Link>
       <Navigation />
 
