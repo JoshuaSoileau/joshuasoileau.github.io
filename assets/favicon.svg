@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>favicon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-465.000000, -307.000000)">
+            <g id="favicon" transform="translate(465.000000, 307.000000)">
+                <path d="M0,0 L13.332,0 L26.64,0 L40,0 L40,9.6 L24.8,9.6 C24.8,12.2666667 24.8,18 24.8,26.8 C24.8,35.6 20.6666667,40 12.4,40 C4.13333333,40 0,35.6 0,26.8 L0,20 L9.6,20 L9.6,26.8 C9.52035757,29.2 10.4337803,30.4 12.3402682,30.4 C14.2467561,30.4 15.2,29.2 15.2,26.8 L15.2,9.6 L0,9.6 L0,0 Z" id="Rectangle" fill-opacity="0.429141171" fill="#1E58FF"></path>
+                <path d="M27.6,0 C35.8666667,0 40,4.4 40,13.2 C40,22 40,24.2666667 40,20 L30.4,20 L30.4,13.2 C30.4,10.8 29.4666667,9.6 27.6,9.6 C24.8,9.6 24.8,11.6920375 24.8,13.2018056 C24.8,16.3476726 24.8,20.8537373 24.8,26.8 C24.8,35.6 20.6666667,40 12.4,40 C4.13333333,40 0,35.6 0,26.8 L0,20 L9.6,20 L9.6,26.8 C9.52035757,29.2 10.4337803,30.4 12.3402682,30.4 C14.2467561,30.4 15.2,29.2 15.2,26.8 C15.2,26.5333333 15.2,22 15.2,13.2 C15.2,4.4 19.3333333,0 27.6,0 Z" id="Rectangle" fill-opacity="0.414909309" fill="#C316FF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

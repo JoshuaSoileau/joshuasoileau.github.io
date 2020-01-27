@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
+import Section from "../../components/Section";
 
 const Post = () => {
   return (
-    <div>
+    <Section>
       <h1>Hello World 2</h1>
-    </div>
+    </Section>
   );
 };
 

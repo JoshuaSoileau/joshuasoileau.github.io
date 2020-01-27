@@ -8,18 +8,6 @@ const Primary = ({ children }) => {
       <div className="main" role="main">
         <div className="main__content">{children}</div>
       </div>
-      <style jsx>{`
-        .outer {
-          display: flex;
-          flex-direction: column;
-          width: 100vw;
-          height: 100vh;
-          font-family: "Roboto", sans-serif;
-          max-width: 840px;
-          margin: 0 auto;
-          padding: 0 20px;
-        }
-      `}</style>
     </div>
   );
 };

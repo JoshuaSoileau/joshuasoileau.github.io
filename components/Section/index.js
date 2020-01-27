@@ -6,7 +6,11 @@ const Section = ({ children }) => {
       {children}
       <style jsx>{`
         section {
-          padding: 120px 0;
+          padding: 2em 13em;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          min-height: 100vh;
         }
       `}</style>
     </section>

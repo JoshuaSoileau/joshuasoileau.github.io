@@ -20,10 +20,11 @@ const Navigation = () => {
           display: flex;
           align-items: center;
           list-style: none;
+          margin: 0;
         }
 
         li {
-          padding: 8px;
+          padding: 0 8px;
         }
       `}</style>
     </ul>

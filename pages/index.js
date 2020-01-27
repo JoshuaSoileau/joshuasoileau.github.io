@@ -6,13 +6,19 @@ const HomePage = () => {
   return (
     <Fragment>
       <Section>
-        <h1>My name is Josh Soileau.</h1>
-        <p>I am a web developer.</p>
+        <p>Hi, my name is</p>
+        <h1>Joshua Soileau</h1>
+        <p>and I build things on the internet.</p>
       </Section>
       <Section>
         <h2>My thoughts.</h2>
         <BlogList />
       </Section>
+      <style jsx>{`
+        h1 {
+          margin: 0;
+        }
+      `}</style>
     </Fragment>
   );
 };
