@@ -9,6 +9,7 @@ const App = ({ Component, pageProps }) => {
           @import url("https://rsms.me/inter/inter.css");
           html,
           body {
+            background: #f8f9fa;
             font-family: "Inter", sans-serif;
             font-size: 18px;
             line-height: 1.8em;
